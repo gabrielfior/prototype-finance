@@ -5,19 +5,25 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 import { AppComponent } from './app.component';
+import { HttpModule } from '@angular/http';
+import { DataService } from './services/data.service';
+import { FinancePlotComponent } from './finance-plot/finance-plot.component';
+import { FinanceDataService } from './services/finance-data.service';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FinancePlotComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     NgxChartsModule,
-    BrowserAnimationsModule 
+    BrowserAnimationsModule,
+    HttpModule 
   ],
-  providers: [],
+  providers: [DataService, FinanceDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
