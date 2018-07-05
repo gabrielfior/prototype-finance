@@ -205,3 +205,13 @@ testem.log
 .DS_Store
 Thumbs.db
 front-end/
+python-backend/.idea/python-backend.iml
+.pytest_cache/v/cache/lastfailed
+.pytest_cache/v/cache/nodeids
+.vscode/settings.json
+python-backend/.idea/misc.xml
+python-backend/.idea/modules.xml
+python-backend/.idea/vcs.xml
+python-backend/.idea/workspace.xml
+python-backend/.pytest_cache/v/cache/lastfailed
+python-backend/.pytest_cache/v/cache/nodeids
