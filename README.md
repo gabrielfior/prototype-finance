@@ -57,3 +57,4 @@ pytest
 
 * [apistar](https://docs.apistar.com/) - Python Web API framework - Nice for easy docs and schema generation
 * [angular-cli](https://angular.io) - Development tools and libraries specialized for Angular
+* [ngx-charts](https://swimlane.github.io/ngx-charts/) - Declarative Charting Framework for Angular
